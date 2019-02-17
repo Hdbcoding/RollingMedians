@@ -1,0 +1,14 @@
+G:\Personal Projects\RollingMedian\RollingMedian.ConsoleApp\bin\Debug\netcoreapp2.2\RollingMedian.ConsoleApp.deps.json
+G:\Personal Projects\RollingMedian\RollingMedian.ConsoleApp\bin\Debug\netcoreapp2.2\RollingMedian.ConsoleApp.runtimeconfig.json
+G:\Personal Projects\RollingMedian\RollingMedian.ConsoleApp\bin\Debug\netcoreapp2.2\RollingMedian.ConsoleApp.runtimeconfig.dev.json
+G:\Personal Projects\RollingMedian\RollingMedian.ConsoleApp\bin\Debug\netcoreapp2.2\RollingMedian.ConsoleApp.dll
+G:\Personal Projects\RollingMedian\RollingMedian.ConsoleApp\bin\Debug\netcoreapp2.2\RollingMedian.ConsoleApp.pdb
+G:\Personal Projects\RollingMedian\RollingMedian.ConsoleApp\bin\Debug\netcoreapp2.2\RollingMedian.Lib.dll
+G:\Personal Projects\RollingMedian\RollingMedian.ConsoleApp\bin\Debug\netcoreapp2.2\RollingMedian.Lib.pdb
+G:\Personal Projects\RollingMedian\RollingMedian.ConsoleApp\obj\Debug\netcoreapp2.2\RollingMedian.ConsoleApp.csprojAssemblyReference.cache
+G:\Personal Projects\RollingMedian\RollingMedian.ConsoleApp\obj\Debug\netcoreapp2.2\RollingMedian.ConsoleApp.csproj.CoreCompileInputs.cache
+G:\Personal Projects\RollingMedian\RollingMedian.ConsoleApp\obj\Debug\netcoreapp2.2\RollingMedian.ConsoleApp.AssemblyInfoInputs.cache
+G:\Personal Projects\RollingMedian\RollingMedian.ConsoleApp\obj\Debug\netcoreapp2.2\RollingMedian.ConsoleApp.AssemblyInfo.cs
+G:\Personal Projects\RollingMedian\RollingMedian.ConsoleApp\obj\Debug\netcoreapp2.2\RollingMedian.ConsoleApp.csproj.CopyComplete
+G:\Personal Projects\RollingMedian\RollingMedian.ConsoleApp\obj\Debug\netcoreapp2.2\RollingMedian.ConsoleApp.dll
+G:\Personal Projects\RollingMedian\RollingMedian.ConsoleApp\obj\Debug\netcoreapp2.2\RollingMedian.ConsoleApp.pdb
