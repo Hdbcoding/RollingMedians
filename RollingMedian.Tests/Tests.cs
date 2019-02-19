@@ -1,4 +1,5 @@
 using System.Collections.Generic;
+using System.IO;
 using NUnit.Framework;
 using RollingMedian.Lib;
 
@@ -28,6 +29,15 @@ namespace RollingMedian.Tests
             for (int i = 0; i < sorted.Length; i++){
                 Assert.AreEqual(sorted[i], minHeap.ExtractMin());
             }
+        }
+
+        [Test, TestCaseSource(typeof(TestCaseFactory), "TestCases")]
+        public void CanLoadData(string inputFile, string outputFile)
+        {
+            var data = DataLoader.LoadData(inputFile);
+            //assert that each line produced a node
+            var count = File.ReadAllLines(inputFile).Length;
+            Assert.AreEqual(data.Count, count);
         }
     }
 }

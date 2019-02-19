@@ -64,11 +64,13 @@ namespace RollingMedian.Lib
         private bool CheckRule(int index1, int index2)
             => _rule(_elements[index1], _elements[index2]);
 
-        public T CheckMin() => _elements[0];
+        public T PeekMin() => _elements[0];
 
         public void AddAll(IEnumerable<T> items)
         {
             foreach (var item in items) Add(item);
         }
+
+        public int Count => _elements.Count;
     }
 }
