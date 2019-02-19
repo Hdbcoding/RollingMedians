@@ -1,4 +1,5 @@
-﻿using System;
+﻿using RollingMedian.Lib;
+using System;
 
 namespace RollingMedian.ConsoleApp
 {
@@ -6,7 +7,10 @@ namespace RollingMedian.ConsoleApp
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            var data = DataLoader.LoadData("medianData.txt");
+            var rollingMedian = MedianCalculator.SumMedians(data);
+            Console.WriteLine(rollingMedian);
+            Console.ReadLine();
         }
     }
 }

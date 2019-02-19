@@ -17,9 +17,9 @@ namespace RollingMedian.Lib
             _rule = comparisonRule;
         }
 
-        public void Add(T next)
+        public void Add(T value)
         {
-            _elements.Add(next);
+            _elements.Add(value);
             int child = _elements.Count - 1;
             int parent = (child - 1) / 2;
             //while the new element is smaller than its parent, bubble it up
@@ -41,7 +41,7 @@ namespace RollingMedian.Lib
             int child2 = 2;
             //while the root is bigger than its children, bubble it down
             while ((_elements.Count > child1 && CheckRule(child1, parent))
-                || (_elements.Count > child2 && CheckRule(child1, parent)))
+                || (_elements.Count > child2 && CheckRule(child2, parent)))
             {
                 // if both children are available, return the smaller child
                 int nextIndex = _elements.Count > child2 && CheckRule(child2, child1) ? child2 : child1;
